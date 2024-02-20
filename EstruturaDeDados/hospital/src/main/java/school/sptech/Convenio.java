@@ -32,6 +32,13 @@ public class Convenio implements iAtendimento{
 
     @Override
     public void realizarAtendimento() {
+        Paciente paciente = new Paciente();
 
+        paciente.getNome();
+        paciente.getTelefone();
+    }
+
+    public Double calcularReembolso(){
+        return 0.0;
     }
 }
