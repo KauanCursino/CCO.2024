@@ -106,6 +106,79 @@ public class Carro {
         return -1;
     }
 
+    public static void mergeSort(Carro[] v, int inicio, int fim) {
+        if (inicio < fim) {
+            int meio = (inicio + fim) / 2;
+            mergeSort(v, inicio, meio);
+            mergeSort(v, meio + 1, fim);
+            merge(v, inicio, meio, fim);
+        }
+    }
+
+    private static void merge(Carro[] v, int inicio, int meio, int fim) {
+        int n1 = meio - inicio + 1;
+        int n2 = fim - meio;
+
+        Carro[] L = new Carro[n1];
+        Carro[] R = new Carro[n2];
+
+        for (int i = 0; i < n1; ++i)
+            L[i] = v[inicio + i];
+        for (int j = 0; j < n2; ++j)
+            R[j] = v[meio + 1 + j];
+
+        int i = 0, j = 0;
+        int k = inicio;
+        while (i < n1 && j < n2) {
+            if (L[i].getPreco() <= R[j].getPreco()) {
+                v[k] = L[i];
+                i++;
+            } else {
+                v[k] = R[j];
+                j++;
+            }
+            k++;
+        }
+
+        while (i < n1) {
+            v[k] = L[i];
+            i++;
+            k++;
+        }
+
+        while (j < n2) {
+            v[k] = R[j];
+            j++;
+            k++;
+        }
+    }
+
+    public static void quickSort(Carro[] v, int inicio, int fim) {
+        if (inicio < fim) {
+            int pi = particiona(v, inicio, fim);
+            quickSort(v, inicio, pi - 1);
+            quickSort(v, pi + 1, fim);
+        }
+    }
+
+    private static int particiona(Carro[] v, int inicio, int fim) {
+        Double pivot = v[fim].getPreco();
+        int i = inicio - 1;
+        for (int j = inicio; j < fim; j++) {
+            if (v[j].getPreco() < pivot) {
+                i++;
+                Carro temp = v[i];
+                v[i] = v[j];
+                v[j] = temp;
+            }
+        }
+        Carro temp = v[i + 1];
+        v[i + 1] = v[fim];
+        v[fim] = temp;
+
+        return i + 1;
+    }
+
     @Override
     public String toString() {
         return "Carro{" +
