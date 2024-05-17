@@ -5,5 +5,4 @@ import school.sptech.projetojpadto.entity.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
 
-
 }

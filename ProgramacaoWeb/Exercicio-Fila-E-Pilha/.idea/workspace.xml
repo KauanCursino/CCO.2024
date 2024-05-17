@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e83bded4-065d-46e7-bfa0-2b838a7d8c9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../EstruturaDeDados/exercicio-matriz/src/main/java/school/sptech/Exercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EstruturaDeDados/teste-pilha-incompleto/src/main/java/org/example/PilhaObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/controller/AlunoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/controller/ProfessorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/dto/AlunoCriacaoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/dto/AlunoListagemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/dto/ProfessorListagemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/dto/mapper/AlunoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/dto/mapper/ProfessorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/entity/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/entity/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/exception/NaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/repository/AlunoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/repository/ProfessorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/service/AlunoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/java/school/sptech/projetobidirecionalrested/service/ProfessorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-bidirecional-rested/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-filme-bidirecional/src/main/java/school/sptech/projetofilmebidirecional/dto/diretor/DiretorFilmeListagemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-filme-bidirecional/src/main/java/school/sptech/projetofilmebidirecional/dto/filme/FilmeDiretorListagemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-filme-bidirecional/src/main/java/school/sptech/projetofilmebidirecional/dto/filme/FilmeListagemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projeto-filme-bidirecional/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EstruturaDeDados/exercicio-ordenacao.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EstruturaDeDados/lista-estatica-incompleta.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EstruturaDeDados/lista-estatica.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio-controller" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio-controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto-jpa-dto/src/main/java/school/sptech/projetojpadto/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto-jpa-dto/src/main/java/school/sptech/projetojpadto/repository/UsuarioRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/school/sptech/FilaObj.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/school/sptech/Main.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2gQpusyC5yqA6QSc9WY4n0SzPs7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Faculdade/SolversCo/Back-End/api-learn-link/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e83bded4-065d-46e7-bfa0-2b838a7d8c9a" name="Changes" comment="" />
+      <created>1715639884299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715639884299</updated>
+      <workItem from="1715639885391" duration="1566000" />
+      <workItem from="1715641486721" duration="1203000" />
+      <workItem from="1715731290539" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
