@@ -19,6 +19,8 @@ public class Repositorio {
         pilha.push(brinquedo.getId());
     }
 
+    public void salvarFila(Hospital hospital) {}
+
     public void deletar(int id) {
         boolean encontrado = false;
         for (Hospital brinquedo : lista) {

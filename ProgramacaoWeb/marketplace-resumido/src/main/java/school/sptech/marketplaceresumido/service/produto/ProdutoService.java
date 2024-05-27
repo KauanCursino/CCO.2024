@@ -9,6 +9,7 @@ import school.sptech.marketplaceresumido.entity.Produto;
 import school.sptech.marketplaceresumido.data.ProdutoRepository;
 import school.sptech.marketplaceresumido.exception.EntidadeNaoEncontradaException;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -41,4 +42,9 @@ public class ProdutoService {
         return repository.save(produtoAtualizado);
     }
 
+    public List<Produto> buscaPorParteDoNome(String nome) {
+        List<Produto> produtos = repository.findAllByNomeContaisIgnoreCase(nome);
+
+        return produtos;
+    }
 }

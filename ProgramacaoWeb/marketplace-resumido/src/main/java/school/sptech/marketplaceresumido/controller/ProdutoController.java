@@ -1,6 +1,5 @@
 package school.sptech.marketplaceresumido.controller;
 
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -28,14 +27,14 @@ public class ProdutoController {
     }
 
     @PostMapping
-    public ResponseEntity<Produto> criar(@RequestBody @Valid Produto produtoCriacao) {
+    public ResponseEntity<Produto> criar(@RequestBody Produto produtoCriacao) {
         return ResponseEntity.ok().build();
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<Produto> atualizar(
             @PathVariable int id,
-            @RequestBody @Valid Produto produtoAtualizacao) {
+            @RequestBody Produto produtoAtualizacao) {
 
         return ResponseEntity.ok().build();
     }
